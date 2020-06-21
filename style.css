@@ -1,0 +1,76 @@
+.name {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5em;
+  color: #222;
+  width: 100%;
+}
+
+.content {
+  margin: 0% 0% 5% 5%;
+  text-align: center;
+  line-height: 5em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.button {
+  margin: 2em;
+  display: inline-block;
+  height: 2.7em;
+  width: 2.7em;
+  margin-right: 2em;
+  text-align: center;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: white;
+  font-size: 3em;
+  line-height: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 600px;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  margin: 5px 20px;
+  border-radius: 50%;
+  line-height: 200px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+}
+
+.fa-envelope-o {
+  background: #808080;
+}
+
+.fa-instagram {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.fa-linkedin {
+  background: #007bb5;
+}
+
+.fa-github {
+  background: #000000;
+}
